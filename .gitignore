@@ -1,0 +1,65 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# virtual environments
+.venv/
+venv/
+ENV/
+
+# packaging / build artifacts
+*.egg-info/
+dist/
+build/
+.wheelhouse/
+
+# pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# ruff
+.ruff_cache/
+
+# coverage
+.coverage
+htmlcov/
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Terraform (infra/)
+# =========================
+**/.terraform/
+**/.terraform.lock.hcl
+**/*.tfstate
+**/*.tfstate.*
+crash.log
+
+# =========================
+# AWS / local secrets
+# =========================
+.env
+.env.*
+*.pem
+*.key
+
+# =========================
+# Logs
+# =========================
+*.log
