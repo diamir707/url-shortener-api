@@ -8,10 +8,10 @@ test:
 	pytest
 
 lint:
-	ruff check app
+	ruff check src
 
 format:
-	ruff format app
-	ruff check app --fix
+	ruff format src
+	ruff check src --fix
 
 check: lint test
